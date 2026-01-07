@@ -1,0 +1,61 @@
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full screen black background */
+body {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+/* Center counter */
+.app {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Counter layout */
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter-value {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.counter-buttons button {
+  width: 60px;
+  height: 60px;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.counter-buttons button:hover {
+  background-color: #1e40af;
+}

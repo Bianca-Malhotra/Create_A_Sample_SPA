@@ -1,0 +1,75 @@
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full screen black background */
+body {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+/* Center todo list */
+.app {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Todo container */
+.todo-container {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Input + button row */
+.todo-input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.todo-input-row input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.todo-input-row button {
+  padding: 10px 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: #16a34a;
+  color: #fff;
+}
+
+.todo-input-row button:hover {
+  background-color: #15803d;
+}
+
+/* Todo list */
+.todo-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.todo-list li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
