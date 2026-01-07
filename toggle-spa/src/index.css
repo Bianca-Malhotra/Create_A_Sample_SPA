@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+.dark {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.light button {
+  background-color: #2563eb;
+  color: white;
+}
+
+.dark button {
+  background-color: #facc15;
+  color: black;
+}
